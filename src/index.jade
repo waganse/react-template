@@ -1,0 +1,25 @@
+extends /_templates/_layout
+
+block variables
+  - var lang = 'en'
+  - var siteName = ''
+  - var title = 'react template'
+
+block styles
+  // build:css /css/app.css
+  // bower:css
+  link(rel='stylesheet', href='/bower_components/normalize.css/normalize.css')
+  // endbower
+  link(rel='stylesheet', href='/css/app.css')
+  // endbuild
+
+block scripts
+  // build:js /js/app.js
+  // bower:js
+  script(src='/bower_components/jquery/dist/jquery.js')
+  // endbower
+  script(src='/js/main.js')
+  // endbuild
+
+block body
+  #app
