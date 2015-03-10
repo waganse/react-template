@@ -1,5 +1,5 @@
-React
-=====
+React template
+===============
 
 Structure
 ---------
@@ -88,11 +88,6 @@ Build Tasks
   Start localhost server using distributed files.
   This task doesn't contain build task. Run `grunt` at first as needed.
 
-* `grunt lint`  
-  Validate HTML, CSS and JavaScript files.
-
-* `grunt test`  
-  Run the unit tests.
 
 For more details or customizing the tasks, please refer [grunt/aliases.js](browse/grunt/aliases.js).
 
@@ -101,20 +96,3 @@ Library Management
 
 See the [Bower document](http://bower.io/#usage) for details.
 
-### Installation
-
-* `bower install --save <package>`  
-  Install a package.
-
-* `bower install --save <package>#<version>`  
-  Install a specific version of package.
-
-Installed library will be included in HTML automatically using [grunt-wiredep](https://github.com/stephenplusplus/grunt-wiredep).
-You don't need to update the reference manually.
-
-### Search Packages
-[Bower - Search](http://bower.io/search/)
-
-----
-
-This repository is created on 2015-02-23 using [generator-rff](http://rff.dev-jpe1.rakuten.rpaas.net/generator-rff/) v0.3.2.
